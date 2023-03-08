@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.dropdown {
+  display: none;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

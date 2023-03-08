@@ -1,0 +1,66 @@
+.footer {
+  text-align: center;
+  font-size: 10px;
+  padding: 10px 0;
+  position: relative;
+  top: 112px;
+
+  .call {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 10px;
+
+    .number {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin: 10px 0;
+
+      img {
+        width: 20px;
+      }
+
+      h3 {
+        font-weight: 500;
+      }
+    }
+
+    .time {
+      color: rgb(62, 62, 62);
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+
+    button {
+      background-color: #fff;
+      border: 0.5px solid lightgray;
+      padding: 5px 30px;
+      font-size: 10px;
+      color: rgb(99, 98, 98);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .etc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+    color: rgb(116, 116, 116);
+
+    span {
+      &:nth-child(1) {
+        color: rgb(38, 37, 37);
+      }
+    }
+  }
+}

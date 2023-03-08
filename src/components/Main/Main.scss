@@ -1,0 +1,220 @@
+@import '../../../public/scss/global.scss';
+
+.main {
+  position: relative;
+  width: 100%;
+  max-height: 2000px;
+  top: 115px;
+
+  .container {
+    width: 100%;
+    background-color: #f7fbff;
+    text-align: center;
+
+    .popup-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      div {
+        width: 100%;
+        text-align: center;
+
+        &:nth-child(1) {
+          padding: 15px 0;
+          background-color: #047bc3;
+          color: white;
+          font-size: 17px;
+          font-weight: 500;
+          position: fixed;
+          top: 60.5px;
+        }
+
+        &:nth-child(2) {
+          padding: 20px 0;
+          background-color: #b200ff;
+          color: white;
+          font-size: 22px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .result {
+      padding: 15px 0 0;
+      box-shadow: 1px 1px 1px 0 lightgray;
+
+      .title {
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+        font-weight: 600;
+        gap: 5px;
+
+        span {
+          &:nth-child(2) {
+            color: #047bc3;
+          }
+        }
+      }
+
+      .date {
+        color: rgb(120, 120, 120);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+        margin: 0 2px;
+      }
+
+      .number {
+        padding: 10px 0;
+        font-size: 13px;
+        font-weight: 400;
+
+        .number-title {
+          margin: 0 0 10px 0;
+        }
+
+        .number-list {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 10px;
+
+          div {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            color: white;
+            border-radius: 50%;
+
+            &:nth-child(1) {
+              background-color: $under_10;
+            }
+            &:nth-child(2) {
+              background-color: $under_10;
+            }
+            &:nth-child(3) {
+              background-color: $under_20;
+            }
+            &:nth-child(4) {
+              background-color: $under_30;
+            }
+            &:nth-child(5) {
+              background-color: $under_40;
+            }
+            &:nth-child(6) {
+              background-color: $under_45;
+            }
+            &:nth-child(7) {
+              color: black;
+              width: 0;
+              margin-right: 5px;
+            }
+            &:nth-child(8) {
+              background-color: $under_20;
+            }
+          }
+        }
+      }
+    }
+
+    .table {
+      width: 100%;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      margin: 20px 0 0;
+
+      div {
+        display: table-cell;
+        border: 1px solid lightgray;
+      }
+
+      table {
+        display: table;
+        border-collapse: collapse;
+        font-size: 12px;
+        width: 90%;
+        background-color: white;
+
+        .row {
+          .table-number {
+            color: white;
+            gap: 15px;
+            display: flex;
+            border-left: 0;
+            padding: 5px 0;
+            border-top: 0;
+
+            div {
+              border: none;
+              font-size: 13px;
+              font-weight: 400;
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              background-color: $under_10;
+              line-height: 30px;
+              margin: 0 15px;
+            }
+          }
+
+          .first {
+            border-top: 1px solid lightgray;
+          }
+        }
+
+        .col {
+          &:nth-child(1) {
+            background-color: rgb(246, 246, 246);
+            color: rgb(66, 65, 65);
+            width: 10%;
+          }
+          &:nth-child(2) {
+            color: rgb(66, 65, 65);
+            width: 15%;
+          }
+          &:nth-child(3) {
+            background-color: white;
+          }
+        }
+
+        .table-alpha {
+          padding: 10px 0;
+        }
+      }
+    }
+
+    .application {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+      background-color: rgb(244, 244, 244);
+      padding: 20px 0;
+
+      img {
+        width: 55px;
+        border-radius: 5px;
+      }
+
+      p {
+        font-size: 11px;
+        text-align: start;
+        color: #313131;
+      }
+    }
+
+    .empty {
+      width: 100%;
+      height: 25px;
+      background-color: #fff;
+    }
+  }
+}

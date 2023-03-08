@@ -1,0 +1,100 @@
+@import '../../../public/scss/global.scss';
+
+.congratulations {
+  margin: 20px auto;
+  width: 90%;
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0.5px 1px 1px 0px lightgray;
+
+  p {
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 3px 0;
+  }
+
+  span {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 3px;
+
+    &:nth-child(3) {
+      color: #047bc3;
+    }
+  }
+}
+
+table {
+  width: 100%;
+
+  tbody {
+    border: 1px solid lightgray;
+
+    tr {
+      border: 1px solid lightgray;
+      font-size: 11px;
+
+      th {
+        border: 1px solid lightgray;
+        height: 40px;
+        background-color: rgb(247, 247, 247);
+        color: rgb(105, 105, 105);
+      }
+
+      .rank {
+        border: 1px solid lightgray;
+        color: rgb(77, 77, 77);
+      }
+
+      .clr {
+        display: inline-block;
+        margin: 0 2px;
+        color: black;
+        font-weight: 700;
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.check-lottery {
+  width: 90%;
+  margin: 15px auto 0;
+  font-size: 11px;
+  color: rgb(99, 98, 98);
+  text-align: left;
+}
+
+.invisible {
+  display: none !important;
+}
+
+.under_10 {
+  background-color: $under_10;
+  color: white !important;
+}
+.under_20 {
+  background-color: $under_20;
+  color: white !important;
+}
+.under_30 {
+  background-color: $under_30;
+  color: white !important;
+}
+.under_40 {
+  background-color: $under_40;
+  color: white !important;
+}
+.under_45 {
+  background-color: $under_45;
+  color: white !important;
+}
+
+.bonus_number {
+  background-color: black;
+  color: white !important;
+}

@@ -91,7 +91,7 @@ const Main = () => {
         <div className="result">
           <h1 className="title">
             <span>로또 6/45</span>
-            <span>{episode}회</span>
+            <span>1057회</span>
           </h1>
           <span className="date">{lotteryDate}</span>
           <span className="date">추첨</span>
